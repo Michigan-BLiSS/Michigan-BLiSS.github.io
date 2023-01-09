@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/newstyle.css">
 </head>
 
-<body>
+<body class="bg-dark">
     <header class="p-3 bg-dark text-white">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -25,14 +25,299 @@
                 </ul>
 
                 <div class="text-end">
-                    <a class="btn btn-outline-light me-2" href="currentmembers.html" role="button">Current
-                        Members</a>
-                    <a class="btn btn-light me-2" href="interestedmembers.html" role="button">Join
+                    <!-- <a class="btn btn-outline-light me-2" href="currentmembers.html" role="button">Current
+                                            Members</a> -->
+                    <a class="btn btn-light me-2" href="https://forms.gle/gPmNYL1teGyeH5tR8" role="button">Join
                         Us!</a>
                 </div>
             </div>
         </div>
     </header>
+
+    <main>
+        <h1 class="text-white text-center mb-4">Our Projects</h1>
+        <h2 class="text-white text-center mb-4">Current Projects</h2>
+        <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                    class=""></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                    class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg width="100%" height="600px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#3d1b57"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption align-items-center justify-content-center" height="100%">
+                            <h1 class="mb-lg-4 mb-sm-2">Sensorimotor Assessment Tool (SMAT)</h1>
+                            <p class="mb-lg-4 mb-sm-2">During transitions from microgravity to heavier
+                                bodies (eg. Earth, Moon, and Mars)
+                                astronauts need to adapt or severe disorientation and motion sickness will occur. The
+                                SMAT project seeks to develop an obstructive sensor that monitor's astronaut's head
+                                and body motion in microgravity
+                                and develop metrics that can characterize astronauts' on-orbit head and motion.</p>
+                            <img src="images\smat.png" class="img-fluid mb-4 mx-auto d-none d-sm-block"
+                                style="max-height: 50%; width: 600px" alt="blisslogo">
+                            <p><a class="btn btn-lg btn-outline-light" href="https://forms.gle/gPmNYL1teGyeH5tR8">I want
+                                    to learn
+                                    more!</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="600px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#58277e"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">ICON</h1>
+                            <p class="mb-lg-4 mb-sm-2">NASA has contracted out ICON, a 3D home printing company, with
+                                the purpose of using their printers to 3D print habitats
+                                on the Moon using Moon regolith. The ICON project team is working with ICON to develop a
+                                simulation that will help design and analyze the mission
+                                infrastructure needed to print habitats on the Moon. The parametric simulation takes in
+                                tabulated data about a lunar region, a set of robots, and local infrastructure, and
+                                returns a simulated build schedule.</p>
+                            <img src="images\icon1.png" class="mb-4 img-fluid mx-auto d-none d-sm-block"
+                                style="max-width: 70%; width: 460px" alt="blisslogo">
+                            <p><a class="btn btn-lg btn-outline-light" href="https://forms.gle/gPmNYL1teGyeH5tR8">I want
+                                    to learn
+                                    more!</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="600px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#7433a4"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">Cargo Assistant: Robotic Geometric Organization (CARGO)</h1>
+                            <p class="mb-lg-4 mb-sm-2">Storing and retrieving provisions and equipment in a
+                                space-constrained area like the ISS
+                                is a challenge yet to be
+                                optimized. The CARGO team is developing an autonomous system for the Lunar Gateway
+                                Logistics Module
+                                to store and retrieve cargo
+                                for station crew while requiring less active crew time than the currently used methods
+                                on the ISS.</p>
+                            <img src="images\cargo.jpg" class="mb-4 img-fluid mx-auto d-none d-sm-block"
+                                style="max-height: 20%; width: 300px" alt="blisslogo">
+                            <p><a class="btn btn-lg btn-outline-light" href="https://forms.gle/gPmNYL1teGyeH5tR8">I want
+                                    to learn
+                                    more!</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <h2 class="text-white text-center m-4">Past Projects</h2>
+        <div id="pastProjects" class="carousel slide pointer-event" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#pastProjects" data-bs-slide-to="0" class="active"
+                    aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#pastProjects" data-bs-slide-to="1" aria-label="Slide 2"
+                    class=""></button>
+                <button type="button" data-bs-target="#pastProjects" data-bs-slide-to="2" aria-label="Slide 3"
+                    class=""></button>
+                <button type="button" data-bs-target="#pastProjects" data-bs-slide-to="3" aria-label="Slide 4"
+                    class=""></button>
+                <button type="button" data-bs-target="#pastProjects" data-bs-slide-to="4" aria-label="Slide 5"
+                    class=""></button>
+                <button type="button" data-bs-target="#pastProjects" data-bs-slide-to="5" aria-label="Slide 6"
+                    class=""></button>
+                <button type="button" data-bs-target="#pastProjects" data-bs-slide-to="6" aria-label="Slide 7"
+                    class=""></button>
+                <button type="button" data-bs-target="#pastProjects" data-bs-slide-to="7" aria-label="Slide 8"
+                    class=""></button>
+                <button type="button" data-bs-target="#pastProjects" data-bs-slide-to="8" aria-label="Slide 9"
+                    class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg width="100%" height="320px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#3d1b57"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption align-items-center justify-content-center" height="100%">
+                            <h1 class="mb-4">Voice Control for Lunar Gateway (2021)</h1>
+                            <p class="mb-4">Continued our design of UIs with development of an Amazon Alexa-esque Voice
+                                User Interface for astronauts to interact
+                                with a future space station. Areas of focus included creating a personality for system,
+                                ensuring natural conversations,
+                                assembling hardware and software, and mitigation background noise on the station.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="320px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#58277e"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">AR/VR Field Treks (2020)</h1>
+                            <p class="mb-lg-4 mb-sm-2">The team teamed with CLAWS to create an Augmented Reality (AR)
+                                toolkit to help with analog field trek operations under
+                                the supervision of the Solar System Exploration Research Virtual Institute (SSERVI).
+                                These treks are operational and
+                                technical demonstrations at space-like destinations on Earth to test current
+                                extra-vehicular activity (EVA) techniques.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="320px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#7433a4"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">UI/UX for Lunar Gateway (2020)</h1>
+                            <p class="mb-lg-4 mb-sm-2">Developed new concepts for an astronaut to interact with a future
+                                space station such as the Lunar Gateway using novel
+                                touchscreen devices. Allowing the generation who grew up with videogames to design GUIs
+                                and intuitive touch controls.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="320px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#3d1b57"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">Conceptualization of a Deep Space Medical Support Unit (2019)
+                            </h1>
+                            <p class="mb-lg-4 mb-sm-2">The team conceptually devised a medical support system and
+                                prototyped its layout using virtual reality (VR). The medical
+                                workstation could sustain four crew members, including at least one medically trained
+                                physician, for an 1100-day mission
+                                to, on, and from the surface of Mars.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="320px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#58277e"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">3D Printed Substrate for Plant Growth in Microgravity (2018)
+                            </h1>
+                            <p class="mb-lg-4 mb-sm-2">Designed and prototyped a 3D-printed substrate that wicks water
+                                to facilitate plant growth in microgravity, while
+                                complementing aeroponics water delivery system. The team considered both lattice
+                                structures and capillary tubes, both
+                                completely additively manufactured.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="320px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#7433a4"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">ARGO, a Dual-Use Martian Surface/Transit Habitat (2018)
+                            </h1>
+                            <p class="mb-lg-4 mb-sm-2">The team focused on designing the airlock of a Mars habitat,
+                                enabling two humans to explore the Martian surface outside
+                                of the habitat. The airlock, suit and PLSS worked together to support EVA missions on
+                                Mars while complying with
+                                necessary planetary protection protocol.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="320px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#3d1b57"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">Astronaut Urine Repurposing Apparatus (AURA) (2017)
+                            </h1>
+                            <p class="mb-lg-4 mb-sm-2">Extract water, plant nutrients for food productions, and edible
+                                sodium from human urine and other wastewater sources.
+                                Intended for deep space and long duration space missions, reducing waste during the
+                                mission.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="320px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#58277e"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">Cygnus Habitat for Life Off Earth (2016)
+                            </h1>
+                            <p class="mb-lg-4 mb-sm-2">Designing a a semi-autonomous Life Support System that will
+                                provide future astronauts in cis-lunar orbit with nutrition,
+                                oxygen, and wastewater treatment. The Cygnus capsule was transformed into a
+                                vegetarian-focused greenhouse.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg width="100%" height="320px" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
+                        focusable="false">
+                        <rect width="100%" height="100%" fill="#7433a4"></rect>
+                    </svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1 class="mb-lg-4 mb-sm-2">Transparent Greenhouse on the Surface of Mars (2015)
+                            </h1>
+                            <p class="mb-lg-4 mb-sm-2">Designing a greenhouse to place on the surface of Mars. Project
+                                scope included selection of plants, power systems, C&DH,
+                                thermal systems, and structural elements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#pastProjects" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#pastProjects" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
 
     <footer class="container">
         <p class="float-end"><a href="#" class="text-white">Back to top</a></p>
